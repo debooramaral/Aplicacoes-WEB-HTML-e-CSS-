@@ -7,21 +7,21 @@
     --cor-hover:rgba(243, 208, 9, 0.548); 
     --cor-texto:rgba(32, 32, 3, 0.733);
     --cor-titulo:rgb(150, 143, 56);
-    --cor-tabela: rgb(61, 58, 9);
+    --cor-tabela: rgb(245, 231, 35);
     --cor-texto-tabela: rgba(112, 112, 91, 0.315);    
     
 }
 h1{
     text-align: center;
     color: var(--cor-titulo);
-    font: 50px "Cooper";
+    font: 50px "Wide Latin";
 }
 body{
     background-color: var(--cor-fundo);
-    /*background-image: url(../img/outline_lunch_dining_black_24dp.png);
+    /*background-image: url(../img/outline_lunch_dining_black_24dp.png);*/
     background-repeat: no-repeat;
-    background-image: url(../img/outline_lunch_dining_black_24dp.png);
-    background-position: bottom;*/
+    background-size: 10px;
+    
 }
 
 #img1{
@@ -38,7 +38,6 @@ body{
     flex-direction: row;
     align-items: center;
     background-color: var(--cor-fundo);
-    font: 20px "Calibri";
 }
 #menu ul{
     display: flex;
@@ -46,7 +45,7 @@ body{
     float: none;
     list-style: none;
     width: 100%;
-    font: 25px "Calibri";
+    font-size: 25px;
     justify-content: center;
 }
 #menu ul li{
@@ -64,148 +63,29 @@ body{
     padding: 25px;
 }
 div{
-    padding: 50px;
+    padding: 20px;
 }
 h2{
     text-align: center;
-    font: 25px "Calibri";
+    font-size: 25px;
     color: var(--cor-titulo);
     padding: 10px;
 }
 table{
-    border: 2px;
-    border-radius: 25px;
     border-collapse: collapse;
     border: var(--cor-tabela);
     color: var(--cor-texto);
-    font: 20px "Calibri";
     width: 50%;
-    padding: 50px;
+    padding: 30px;
     margin: auto;
 }
-tr:nth-child(even){
-    background-color: var(--cor-hover);
+tr{
     height: 50px;
     text-align: center;
+
 } 
 td{
     height: 50px;
-    padding: 3px;
     text-align: center;
-}
-th{
-    font: 22px "Cooper";
-    height: 50px;
-}
-#divisao2{
-    background-image: url(../img/outline_lunch_dining_black_24dp.png);
-    background-repeat: no-repeat;
-    background-position: bottom;       
-    padding: 50px;
-}
-#produtos{
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
-}
-#produtos img{
-    padding: 5px;
-    width: 360px;
-    height: 220px;
-    border-radius: 30px;
-}
-#item{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    font: 20px "Calibri";
-    color: var(--cor-texto);
-    background-color: var(--cor-hover);
-    margin: 10px;
-    border-radius: 20px;
-    padding: 20px;
-}
-#item button{
-    background-color: var(--cor-titulo);
-    padding: 10px;
-    border-radius: 10px;
-    border: none;
-    color: var(--cor-tabela);
-    font: 18px "Calibri";
-    font-weight: bold;
-    cursor: pointer;
-}
-#item button:hover{
-    background-color: var(--cor-fundo);
-}
-.forms{
-    padding: 30px;
-    margin: 3px;
-    text-align: center;
-}
-.forms h3{
-    color: var(--cor-texto);
-    text-align: center;
-    font: 50px "Calibri";
-    font-weight: bold;
-    margin: 50px;
-}
-.campo{
-    padding: 15px;
-    width: 97%;
-    text-align: left;
-}
-#corpo_formulario{
-    height: 900px;
-    width: 900px;
-    background-color: var(--cor-hover);
-    opacity: 0.8;
-    font: 26px "Calibri";
-    border-radius: 30px;
-    border: 1.2 solid var(--cor-texto);
-    color: var(--cor-tabela);
-    padding: 15px;
-    display: inline-block;
-}
-input{
-    background-color: ghostwhite;
-    width: 50%;
-    border-radius: 30px;
-    border: 11.2 solid var(--cor-hover);
-    font: 26px "Calibri";
-    padding: 15px;
-    outline: none;
-    cursor: pointer;
-    text-align: center;
-}
-.campo label{
-    color: var(--cor-texto);
-    font: 26px "Calibri";
-    margin-top: 10px;
-}
-textarea{
-    flex-wrap: wrap;
-    padding: 15px;
-    width: 50%;
-    border-radius: 30px;
-    border: 11.2 solid var(--cor-hover);
-    font: 26px "Calibri";
-    text-align: center;
-    background-color: ghostwhite;
-}
-input.botao_enviar{
-    background-color: var(--cor-titulo);
-    font: 26px "Calibri";
-    border-radius: 16px;
-    border: 1.2 solid var(--cor-hover);
-    height: 50px;
-    color: var(--cor-tabela);
-    width: 75%;
-    margin: auto 80px auto;
-    padding: 15px;
-    cursor: pointer;
-    text-align: center;
-}
-input.botao_enviar:hover{
-    background-color: var(--cor-fundo);
+    
 }
